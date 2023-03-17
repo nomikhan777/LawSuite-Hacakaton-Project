@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #202020;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: white;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+body>div {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 500px;
+  min-width: 390px;
+}
+
+.bg__pattern {
+  background-image: radial-gradient(#525252 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+
+.bg__shadow {
+  -webkit-box-shadow: 6px 3px 32px 1.5px #2bd425;
+  -moz-box-shadow: 6px 3px 32px 1.5px #2bd425;
+  box-shadow: 6px 3px 32px 1.5px #2bd425;
+}
+
+/* Style the scrollbar track */
+.custom__scrollbar::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb */
+.custom__scrollbar::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar corner */
+.custom__scrollbar::-webkit-scrollbar-corner {
+  background-color: #f5f5f5;
+}
+
+/* Hide the scrollbar when not hovering */
+.custom__scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #f5f5f5;
+}
+
+.Typewriter {
+  background-color: transparent !important;
+}
+
+.Typewriter__wrapper {
+  background-color: transparent !important;
+}
